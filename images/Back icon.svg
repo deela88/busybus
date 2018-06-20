@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="19px" viewBox="0 0 12 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Back icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-11.000000, -29.000000)" fill="#FFFFFF">
+            <g id="NavBar">
+                <g id="top-bar" transform="translate(11.000000, 28.000000)">
+                    <polygon id="Back-icon" points="10.0962356 1 0 10.5 10.0962356 20 12 18.2086628 3.80752887 10.5 12 2.79133718"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
