@@ -16,7 +16,7 @@ body, .container {
   width: 375px;
 }
 
-h3, .arrow-left, .info-icon, .map, .busnumber-list {
+h3, .arrow-left, .info-icon, .map {
   display: block;
 }
 
@@ -89,7 +89,7 @@ h3 {
   font-size: 1.4em;
 }
 
-.destination, .frequency, .busnumber-list, .arrow-left {
+.destination, .frequency, .arrow-left {
   float: left;
 }
 
@@ -121,45 +121,52 @@ h3 {
   text-align: right;
 }
 
-.busnumber-list {
-  height: 30px;
-  padding: 18px;
-}
 
 .pvert-borderb {
   padding: 15px 0px 50px 0px;
   border-bottom: 0.5px solid #BDBDBD;
 }
 
-.bus1, .bus2, .bus3, .bus4, .bus5, .bus6, .bus7, .bus8, .bus9, .map, .statusbar {
-  background-size: contain;
+/* Bus box formatting */
+.bus-box {
+  box-shadow: 1px 1px 1px #5555;
+  float: left;
+  width: 55px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 4px 20px 0 0;
 }
 
-.bus1 {
-  background: url(../images/East60.svg) no-repeat;
-}
-.bus2 {
-  background: url(../images/East124.svg) no-repeat;
-}
-.bus3 {
-  background: url(../images/North151.svg) no-repeat;
+.busicon {
+  display: inline;
+  position: relative;
+  left: 7px;
+  top: 7px;
+  margin-right: 8px;
 }
 
-.bus4 {
-  background: url(../images/SouthJ14.svg) no-repeat;
+h5 {
+  font-weight: 500;
+  font-size: 1.3em;
+  display: inline;
+  position: relative;
+  top: 3px;
+  margin-right: 7px;
 }
-.bus5 {
-  background: url(../images/South124.svg) no-repeat;
+
+.blue {
+  border-bottom: 3px solid #5C8FDC;
 }
-.bus6 {
-  background: url(../images/RR6x.svg) no-repeat;
+
+.green {
+  border-bottom: 3px solid #60B300;
 }
-.bus7 {
-  background: url(../images/OOS4.svg) no-repeat;
+
+.violet {
+  border-bottom: 3px solid #BD10E0;
 }
-.bus8 {
-  background: url(../images/OOS20.svg) no-repeat;
-}
-.bus9 {
-  background: url(../images/OOS157.svg) no-repeat;
+
+.orange {
+  border-bottom: 3px solid #F5A623;
 }
